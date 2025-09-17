@@ -183,7 +183,6 @@ body {
     transform: translateY(-50%);
 }
 
-/* 📱 Responsive Styles */
 @media (max-width: 1024px) {
     #menu-bar li {
         padding: 0 25px;
@@ -276,4 +275,9 @@ body {
         font-size: 0.85rem;
         margin: 10px auto 0;
     }
+}
+
+#helper-div{
+    min-height: 100vh;
+    width: 100%;
 }
