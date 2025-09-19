@@ -391,6 +391,13 @@ body {
   flex: 1;
 }
 
+
+#roofing{
+  height: 200px;
+  width: 300px;
+  border-top-right-radius: 2rem;
+}
+
 @media (max-width: 1024px) {
   #segments-cards-row {
     gap: 1.2rem;
