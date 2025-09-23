@@ -51,7 +51,7 @@ body {
   padding: 0;
   align-items: center;
   justify-content: center;
-  gap: 0; /* Use gap instead of padding for better control */
+  gap: 0;
 }
 
 #menu-bar li {
@@ -210,7 +210,7 @@ body {
   justify-content: center;
   align-items: center;
   padding: 60px 10vw;
-  color: #000; /* Ensure text color switches for light bg */
+  color: #000;
 }
 
 .about-container {
@@ -470,8 +470,9 @@ body {
   }
 
   .products-grid {
-    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
     gap: 1.5rem;
+
   }
 }
 
