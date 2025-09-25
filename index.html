@@ -11,27 +11,31 @@
 
 <body>
   <div id="main-container">
-    <!-- Header -->
     <header>
       <nav>
         <ul id="menu-bar">
-          <img src="images/logo.png" alt="logo" id="nav-logo">
+          <div>
+            <img src="images/logo.png" alt="logo" id="nav-logo">
+          </div>
           <div class="burger">
             <div class="bar"></div>
             <div class="bar"></div>
             <div class="bar"></div>
           </div>
-          <li><a href="#about" class="nav-link">About</a></li>
-          <li><a href="#ourProducts" class="nav-link">Our Products</a></li>
-          <li><a href="#ourBrands" class="nav-link">Our Brands</a></li>
-          <li><a href="#investors" class="nav-link">Investors</a></li>
-          <li><a href="#contact" class="nav-link">Contact</a></li>
-          <button class="Get-more">Get More</button>
+          <div id="menu-items">
+            <li><a href="#about" class="nav-link">About</a></li>
+            <li><a href="#ourProducts" class="nav-link">Our Products</a></li>
+            <li><a href="#ourBrands" class="nav-link">Our Brands</a></li>
+            <li><a href="#investors" class="nav-link">Investors</a></li>
+            <li><a href="#contact" class="nav-link">Contact</a></li>
+          </div>
+          <div>
+            <button class="Get-more">Get More</button>
+          </div>
         </ul>
       </nav>
     </header>
 
-    <!-- Hero Section -->
     <section id="hero-section">
       <img src="images/buildpro.png" alt="BuildPro Logo" id="logo">
       <div id="header-content">
@@ -42,15 +46,12 @@
       </div>
     </section>
 
-    <!-- About Section -->
     <section id="about">
       <div class="about-container">
-        <!-- Left Image -->
         <div class="about-image">
           <img src="images/build-logo.png" alt="About BuildPro">
         </div>
 
-        <!-- Right Content -->
         <div class="about-content">
           <h2>Know More About Us</h2>
           <h1>SGK Building Products Ltd.</h1>
@@ -61,7 +62,7 @@
             quality and range, we're dedicated to helping both enthusiasts and
             professional builders.
             We combine years of tradition with the latest innovations to
-            enhance India’s construction
+            enhance India's construction
             and renovation projects.
           </p>
           <button class="discover-btn">Discover More</button>
@@ -69,7 +70,6 @@
       </div>
     </section>
 
-    <!-- Our Products Section (Refined) -->
     <section id="ourProducts">
       <div class="products-header">
         <h2>Our Products</h2>
@@ -77,7 +77,7 @@
           SGK Products Ltd offers a wide selection of over 1 Lakh + SKU’s,
           covering everything you need from home construction to renovation.
           We offer skilfully chosen high-quality, diverse, and innovative products,
-          whether you’re looking for Roofing & Accessories, Interior and Exterior or Tiles & Surfaces.
+          whether you're looking for Roofing & Accessories, Interior and Exterior or Tiles & Surfaces.
           Find everything you need for a functional and beautiful home in our easy-to-navigate collection.
         </p>
       </div>
@@ -108,7 +108,7 @@
           <button class="category-btn">Explore</button>
         </div>
         <div class="product-category">
-          <img src="images/electrical.png" alt="Electrical & Lighting"> <!-- Assuming an image; adjust path as needed -->
+          <img src="images/electrical.png" alt="Electrical & Lighting">
           <h3>Electrical & Lighting</h3>
           <p>Innovative solutions for illumination and wiring needs.</p>
           <button class="category-btn">Explore</button>
@@ -122,13 +122,14 @@
       </div>
     </section>
 
-    <!-- Our Brands Section (New) -->
     <section id="ourBrands">
       <div class="brands-header">
         <h2>Our Brands</h2>
         <p>
-          We partner with India's most trusted and innovative brands to bring you the best in building materials and home improvement solutions. 
-          From premium paints to durable hardware, our curated selection ensures quality and reliability for every project.
+          We partner with India's most trusted and innovative brands to bring you the best in building materials and
+          home improvement solutions.
+          From premium paints to durable hardware, our curated selection ensures quality and reliability for every
+          project.
         </p>
       </div>
 
@@ -168,9 +169,120 @@
       </div>
     </section>
 
-    <!-- Placeholder Sections -->
-    <section id="investors"></section>
-    <section id="contact"></section>
+    <!-- New Investors Section -->
+    <section id="investors">
+      <div class="investors-container">
+        <div class="investors-header">
+          <h2>Investor Relations</h2>
+          <p>
+            At SGK Building Products Ltd., we are committed to transparency and value creation for our shareholders. 
+            Explore our financial reports, stock performance, and corporate governance details to stay informed about our growth journey.
+          </p>
+        </div>
+
+        <div class="investors-grid">
+          <div class="investor-card">
+            <img src="https://images.unsplash.com/photo-1554224155-6726b3ff858f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80" alt="Financial Reports" class="investor-img">
+            <h3>Financial Reports</h3>
+            <p>Access our annual reports, quarterly earnings, and audited financial statements for the latest fiscal insights.</p>
+            <button class="investor-btn">Download Reports</button>
+          </div>
+          <div class="investor-card">
+            <img src="https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80" alt="Stock Performance" class="investor-img">
+            <h3>Stock Performance</h3>
+            <p>Track our stock price, market trends, and dividend history on BSE/NSE.</p>
+            <button class="investor-btn">View Charts</button>
+          </div>
+          <div class="investor-card">
+            <img src="https://images.unsplash.com/photo-1560472354-b33ff0c44a43?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80" alt="Corporate Governance" class="investor-img">
+            <h3>Corporate Governance</h3>
+            <p>Learn about our board of directors, policies, and commitment to ethical practices.</p>
+            <button class="investor-btn">Learn More</button>
+          </div>
+          <div class="investor-card">
+            <img src="https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80" alt="Investor Events" class="investor-img">
+            <h3>Investor Events</h3>
+            <p>Upcoming AGMs, webinars, and investor meets to engage with our leadership.</p>
+            <button class="investor-btn">Register Now</button>
+          </div>
+        </div>
+
+        <div class="investor-stats">
+          <div class="stat-item">
+            <h4>₹50 lakhs </h4>
+            <p>Market Cap</p>
+          </div>
+          <div class="stat-item">
+            <h4>15%</h4>
+            <p>Growth</p>
+          </div>
+          <div class="stat-item">
+            <h4>10+</h4>
+            <p>Shareholders</p>
+          </div>
+          <div class="stat-item">
+            <h4>5+</h4>
+            <p>Years in Business</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact">
+      <div class="contact-container">
+        <div class="contact-header">
+          <h2>Get In Touch</h2>
+          <p>
+            We'd love to hear from you. Whether you have questions about our products, need support, or want to partner with us, 
+            reach out via the form below or our contact details. We're here to help build your vision.
+          </p>
+        </div>
+
+        <div class="contact-content">
+          <div class="contact-info">
+            <div class="info-item">
+              <h3>Head Office</h3>
+              <p>SGK Building Products Ltd.<br>
+                 Nagarakatte<br>
+                 kotture(t),vijaynar(d)<br>
+                 India</p>
+              <img src="https://images.unsplash.com/photo-1568605114967-8130f3a36994?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80" alt="Office Location" class="info-img">
+            </div>
+            <div class="info-item">
+              <h3>Contact Details</h3>
+              <p><strong>Phone:</strong> +91 9353937319<br>
+                 <strong>Email:</strong> nandeesham561@gmail.com<br>
+                 <strong>Support:</strong> growworldwide01@gmail.com<br>
+                 <strong>Support:</strong> tmabhishek93@gmail.com<br>
+                 <strong>Business Hours:</strong> Everyday, 8 AM - 6 PM IST</p>
+            </div>
+            <div class="info-item">
+              <h3>Follow Us</h3>
+              <p>Stay updated on social media:<br>
+                 <!-- <a href="#" class="social-link">LinkedIn</a> | 
+                 <a href="#" class="social-link">Twitter</a> |  -->
+                 <a href="https://www.instagram.com/__.nandeesh.__?igsh=ZzNidW8xZ2MyZ2lm" class="social-link" target="_blank">Instagram</a></p>
+            </div>
+          </div>
+
+          <form class="contact-form" action="#" method="POST">
+            <div class="form-group">
+              <input type="text" name="name" placeholder="Your Name" required>
+            </div>
+            <div class="form-group">
+              <input type="email" name="email" placeholder="Your Email" required>
+            </div>
+            <div class="form-group">
+              <input type="tel" name="phone" placeholder="Your Phone">
+            </div>
+            <div class="form-group">
+              <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
+            </div>
+            <button type="submit" class="submit-btn">Send Message</button>
+          </form>
+        </div>
+      </div>
+    </section>
   </div>
   <script src="script.js"></script>
 </body>
