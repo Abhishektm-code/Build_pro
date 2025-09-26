@@ -85,7 +85,6 @@ body {
 #menu-bar li a:focus {
   color: #ff3b3f;
   outline: none;
-  text-decoration: underline;
 }
 
 /* Burger Menu */
